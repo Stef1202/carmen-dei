@@ -207,7 +207,7 @@ const page = () => {
             className="w-full mt-8 text-lg font-medium text-pretty text-left text-gray-500 sm:text-xl/8"
           >
             I'm all about clean and thoughtful coding. I like separating
-            sections with <kbd className="kbd">-----------</kbd> comments to
+            sections with <kbd className="kbd bg-white">-----------</kbd> comments to
             keep everything easy to navigate, and I leave little notes on nested
             functions so I always know what’s happening where.
           </p>{" "}
@@ -284,7 +284,7 @@ const page = () => {
                 <div className="title">1</div>
                 <div className="descr text-gray-800">
                   Always start handler function names with{" "}
-                  <kbd className="kbd">handle</kbd>.
+                  <kbd className="kbd bg-white">handle</kbd>.
                 </div>
               </li>
               <li style={{ "--accent-color": "#187389" }}>
@@ -292,7 +292,7 @@ const page = () => {
                 <div className="title">2</div>
                 <div className="descr text-gray-800">
                   Use <strong>PascalCase</strong> after{" "}
-                  <kbd className="kbd">handle</kbd> (e.g.,{" "}
+                  <kbd className="kbd bg-white">handle</kbd> (e.g.,{" "}
                   handleInputChange).
                 </div>
               </li>
@@ -301,7 +301,7 @@ const page = () => {
                 <div className="title">3</div>
                 <div className="descr text-gray-800">
                   Be specific about what the function handles (not just{" "}
-                  <kbd className="kbd">handleClick</kbd> unless obvious).
+                  <kbd className="kbd bg-white">handleClick</kbd> unless obvious).
                 </div>
               </li>
               <li style={{ "--accent-color": "#187389" }}>
@@ -309,9 +309,9 @@ const page = () => {
                 <div className="title">4</div>
                 <div className="descr text-gray-800">
                   For async handlers, include action verbs like{" "}
-                  <kbd className="kbd">Fetch</kbd>,
-                  <kbd className="kbd">Save</kbd>,{" "}
-                  <kbd className="kbd">Delete</kbd>, etc.
+                  <kbd className="kbd bg-white">Fetch</kbd>,
+                  <kbd className="kbd bg-white">Save</kbd>,{" "}
+                  <kbd className="kbd bg-white">Delete</kbd>, etc.
                 </div>
               </li>
               <li style={{ "--accent-color": "#187389" }}>
@@ -326,7 +326,7 @@ const page = () => {
                 <div className="icon"><FaCheckCircle color="green"/></div>
                 <div className="title">6</div>
                 <div className="descr text-gray-800">
-                  Use <kbd className="kbd">try/catch</kbd> inside async handler
+                  Use <kbd className="kbd bg-white">try/catch</kbd> inside async handler
                   functions to manage errors safely.
                 </div>
               </li>
