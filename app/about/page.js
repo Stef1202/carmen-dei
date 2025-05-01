@@ -282,7 +282,7 @@ const page = () => {
               <li style={{ "--accent-color": "#187389" }}>
                 <div className="icon"><FaCheckCircle color="green"/></div>
                 <div className="title">1</div>
-                <div className="descr">
+                <div className="descr text-gray-800">
                   Always start handler function names with{" "}
                   <kbd className="kbd">handle</kbd>.
                 </div>
@@ -290,7 +290,7 @@ const page = () => {
               <li style={{ "--accent-color": "#187389" }}>
                 <div className="icon"><FaCheckCircle color="green"/></div>
                 <div className="title">2</div>
-                <div className="descr">
+                <div className="descr text-gray-800">
                   Use <strong>PascalCase</strong> after{" "}
                   <kbd className="kbd">handle</kbd> (e.g.,{" "}
                   handleInputChange).
@@ -299,7 +299,7 @@ const page = () => {
               <li style={{ "--accent-color": "#187389" }}>
                 <div className="icon"><FaCheckCircle color="green"/></div>
                 <div className="title">3</div>
-                <div className="descr">
+                <div className="descr text-gray-800">
                   Be specific about what the function handles (not just{" "}
                   <kbd className="kbd">handleClick</kbd> unless obvious).
                 </div>
@@ -307,7 +307,7 @@ const page = () => {
               <li style={{ "--accent-color": "#187389" }}>
                 <div className="icon"><FaCheckCircle color="green"/></div>
                 <div className="title">4</div>
-                <div className="descr">
+                <div className="descr text-gray-800">
                   For async handlers, include action verbs like{" "}
                   <kbd className="kbd">Fetch</kbd>,
                   <kbd className="kbd">Save</kbd>,{" "}
@@ -317,7 +317,7 @@ const page = () => {
               <li style={{ "--accent-color": "#187389" }}>
                 <div className="icon"><FaCheckCircle color="green"/></div>
                 <div className="title">5</div>
-                <div className="descr">
+                <div className="descr text-gray-800">
                   Optionally add "Async" at the end of
                   async function names for clarity 
                 </div>
@@ -325,7 +325,7 @@ const page = () => {
               <li style={{ "--accent-color": "#187389" }}>
                 <div className="icon"><FaCheckCircle color="green"/></div>
                 <div className="title">6</div>
-                <div className="descr">
+                <div className="descr text-gray-800">
                   Use <kbd className="kbd">try/catch</kbd> inside async handler
                   functions to manage errors safely.
                 </div>
@@ -333,7 +333,7 @@ const page = () => {
               <li style={{ "--accent-color": "#187389" }}>
                 <div className="icon"><FaCheckCircle color="green"/></div>
                 <div className="title">7</div>
-                <div className="descr">
+                <div className="descr text-gray-800">
                   Stay consistent with naming across your entire project.
                 </div>
               </li>
